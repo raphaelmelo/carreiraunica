@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+header {
+  width: 100%;
+  height: 6vh;
+  background: #f3eaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Secular One", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 100%;
+  font-size: clamp(16px, 2.5vw, 18px);
+  color: #1c1c1c;
+  cursor: pointer;
+}
+
+span {
+  color: #b31b1b;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  width: 20%;
+  height: 40px;
+  padding: 6px;
+  font-size: 16px;
+}
+
+#submit {
+  height: 40px;
+  margin-top: 40px;
+}
+
+div {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  font-family: "Secular One", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 100%;
+  font-size: clamp(16px, 2.5vw, 18px);
+  color: #f3eaea;
+}
